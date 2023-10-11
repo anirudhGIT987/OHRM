@@ -1,0 +1,89 @@
+package com.BrowsersAutomation;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class Broweser_Launch_Navigation {
+	public static void main(String[] args) {
+		EdgeDriver driverEdge;
+		String webApplicationUrlAddress1="http://ellenmacarthurfoundation.com";
+		
+		System.setProperty("webdriver.edge.driver", "D:\\Jaava\\Eclipse Workspace\\Selenium_with_Java\\BrowserDriver_Files\\msedgedriver.exe");
+		driverEdge = new EdgeDriver();
+		driverEdge.navigate().to(webApplicationUrlAddress1);
+		
+		String expectedHomepageTitle_EMcF="Ellen Mcarthur Foundation";
+		System.out.println("The Expected Result of the EMcF homepage title is :- "+expectedHomepageTitle_EMcF);
+		
+		
+		String actualHomepageTitle_EMcF=driverEdge.getTitle();
+		System.out.println("The Actual Result of the EMcF homepage title is :- "+ actualHomepageTitle_EMcF);
+		
+		String EMcFWebApplicationCurrentUrl=driverEdge.getCurrentUrl();		driverEdge.quit();
+		System.out.println("The Current Url from server of EMcF webapplication is :- "+EMcFWebApplicationCurrentUrl );
+		
+		
+	
+		
+		ChromeDriver driverChrome;
+		String webApplicationUrlAddress2="http://theoceancleanup.com";
+		
+		System.setProperty("webdriver.chrome.driver","D:\\Jaava\\Eclipse Workspace\\Selenium_with_Java\\BrowserDriver_Files\\chromedriver.exe");
+		driverChrome = new ChromeDriver();
+		driverChrome.get(webApplicationUrlAddress2);
+		String expected_TOCP_HomepageTitle="The Ocean CleanUp Project";
+		System.out.println("The Expected Result of BoyanSlat's firm webapplication Title is :- " +expected_TOCP_HomepageTitle);
+		
+		String actual_TOCP_HomepageTitle=driverChrome.getTitle();
+		System.out.println("The Actual Result of BoyanSlat's firm Webapplication Title is :-" + actual_TOCP_HomepageTitle);
+		
+		if(actual_TOCP_HomepageTitle.startsWith(expected_TOCP_HomepageTitle))
+			{
+				System.out.println("THe title of TOCP Homepage startswith the Expected Result. So, status is :- Pass");
+				
+			}
+		else {
+				System.out.println("THe title of TOCP Homepage doesn't startswith the expected Resutl. So, status is :- Fail");
+			}
+		
+		String TOCPWebapplicationCUrrentUrl=driverChrome.getCurrentUrl();
+		System.out.println("The Current Url of TOCP Webapplication from server is :-"+TOCPWebapplicationCUrrentUrl);
+	
+		driverChrome.quit();
+		
+		
+		FirefoxDriver driverFirefox;
+		String webApplicationUrlAddress  = "http://downtoearth.org.in";
+	
+		System.setProperty("webdriver.gecko.driver","D:\\Jaava\\Eclipse Workspace\\Selenium_with_Java\\BrowserDriver_Files\\geckodriver.exe ");
+	
+		driverFirefox = new FirefoxDriver();
+		
+		driverFirefox.navigate().to(webApplicationUrlAddress);
+		
+	//driverFirefox.get(webApplicationUrlAddress);
+		
+		String expected_d2eHomePageTitle="Down To Earth";	
+		System.out.println("The Expected Result of D2E Homepage Title is :- "+ expected_d2eHomePageTitle);
+		
+		String actual_d2eHomePageTitle=driverFirefox.getTitle();
+		System.out.println("The Actual Result of D2E Homepage Title is :- " + actual_d2eHomePageTitle );
+		
+		//Validating the title
+		if(actual_d2eHomePageTitle.contains(expected_d2eHomePageTitle))
+		{
+			System.out.println("Title of D2E Homepage is matched :- Pass");
+		}
+		// It is not enough, we too have to validate whether there is any probabilty of mismatch.
+		else 
+		{
+			System.out.println("Title of D2E Homepage Not Matched :- Fail");
+		}
+			String D2EWebapplicationCurrentUrlAddress=driverFirefox.getCurrentUrl();
+		System.out.println("THe Current URL of D2E WebAPplication is :- "+D2EWebapplicationCurrentUrlAddress );
+		
+		
+		
+	}
+}

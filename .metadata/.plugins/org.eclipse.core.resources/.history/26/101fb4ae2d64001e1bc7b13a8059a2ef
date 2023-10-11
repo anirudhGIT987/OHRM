@@ -1,0 +1,10 @@
+<Suite name ="OrangeHRMWebApplication">
+	<Test name = "OrangeHrmWebApplication_Login_AddEmployee_Table_Tests">
+		<Classes>
+			<Class name ="com.TestNG.Selenium. Ohrm_Emp_Registration_Mutliple_TestNG_PropFile"/>
+			
+		</Classes>
+		
+	</Test>
+	
+</Suite>

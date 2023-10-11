@@ -1,0 +1,11 @@
+package com.OrangeHRMApplicationPages;
+
+import com.BaseTest.BaseTest;
+
+public class OrangeHrm_WebApp_LoginTest_WithPom extends BaseTest{
+
+	
+	
+	
+	
+}

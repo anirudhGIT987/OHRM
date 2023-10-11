@@ -1,0 +1,90 @@
+package com.Assignments;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Excel_OrangehrmHome_EmployeeDetails_Validation {
+
+		public static void main(String[] args) throws IOException {
+			WebDriver driver;
+			System.setProperty("webdriver.chrome.driver", "D:\\Jaava\\Eclipse Workspace\\Selenium_with_Java\\BrowserDriver_Files\\chromedriver.exe");
+			driver = new ChromeDriver();
+			String OrangehrmWebApplicationUrl="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
+			
+			driver.get(OrangehrmWebApplicationUrl);
+			
+			//Validation of OrangeHRM Homepage by LoginPanel Text
+		FileInputStream data = new FileInputStream("D:\\Jaava\\Srinivas Sir Livetech\\Selenium Tutorials\\Assignments\\LogIn Test");	
+		//Identifying the WorkBook in the excel file
+		XSSFWorkbook workBook = new XSSFWorkbook(data);
+		
+		//Identifying the ParticularSheet in the Workbook
+		XSSFSheet testDataSheet = workBook.getSheet("Sheet1");
+		
+		//Identifying the Row in the SHeet
+		Row testDataSheetRow=testDataSheet.getRow(1);
+		
+		//Identifying the Row of Cell in the Row
+		Cell testDataSheetRowofCell=testDataSheetRow.getCell(0);
+		
+		//Get the Data from the Cell
+		String expectedLoginPanelExcelData=testDataSheetRowofCell.getStringCellValue();
+		System.out.println(expectedLoginPanelExcelData);
+		
+		
+				/*			// Validation of LoginPanel Text
+		
+		By loginpanelHeadingProperty=By.id("logInPanelHeading");
+		WebElement loginPanelHeading=driver.findElement(loginpanelHeadingProperty);
+		
+		String expectedLoginPanelText=expectedLoginPanelExcelData;
+		System.out.println("The Expected LoginPanel from Excel file is :- "+expectedLoginPanelExcelData );
+		
+		String actualLoginPanelText=loginPanelHeading.getText();
+		System.out.println("The Actual LoginPanel Text is :- "+ actualLoginPanelText);
+		
+		if(actualLoginPanelText.equals(expectedLoginPanelText))
+		{
+			System.out.println("The Actual Result of LoginPanel Element Text is matched with Expected Result:-	Pass ");
+		}
+		else {
+			System.out.println("The Actual Result of LoginPanel Element Text is not mathce with Expected Result:- Fail");
+		}
+		
+							//End of Validation of LoginPanel Text
+		System.out.println();
+		
+		
+		//Create A row
+		Row rowIndex=testDataSheet.createRow(1);
+		//Create a row of cell
+		Cell cellIndex=rowIndex.createCell(1);
+		
+		//Set the Data
+		cellIndex.setCellValue(actualLoginPanelText);
+		//System.out.print(cellIndex.setCellValue(actualLoginPanelText));
+
+		//save the file
+		FileOutputStream output = new FileOutputStream("D:\\Jaava\\Eclipse Workspace\\Selenium_with_Java\\src\\com\\Assignments\\LogInTest.xlsx");
+		workBook.write(output);
+
+			*/
+			
+			
+			
+			
+			
+			
+		}
+		
+}

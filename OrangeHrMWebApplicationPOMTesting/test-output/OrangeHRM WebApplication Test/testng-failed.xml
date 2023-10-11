@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM WebApplication Test]">
+  <test thread-count="5" name="OrangeHrm_WebApp_Login_MultipleUsers(failed)">
+    <classes>
+      <class name="com.OrangeHRMWebAppTestCases.Ohrm_MutlipleUserCredentialsLogin_TestNg_PropFile">
+        <methods>
+          <include name="multiUserCredentialsLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.OrangeHRMWebAppTestCases.Ohrm_MutlipleUserCredentialsLogin_TestNg_PropFile -->
+    </classes>
+  </test> <!-- OrangeHrm_WebApp_Login_MultipleUsers(failed) -->
+</suite> <!-- Failed suite [OrangeHRM WebApplication Test] -->

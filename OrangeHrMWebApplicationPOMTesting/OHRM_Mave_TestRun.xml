@@ -1,0 +1,11 @@
+<suite name = "OrangeHRM WebApplication Test">
+
+	<test name = "OrangeHrm_WebApp_Login_MultipleUsers">
+	
+		<classes>
+			<class name ="com.OrangeHRMWebAppTestCases.Ohrm_MutlipleUserCredentialsLogin_TestNg_PropFile"/>
+		</classes>	
+</test>
+
+
+</suite>

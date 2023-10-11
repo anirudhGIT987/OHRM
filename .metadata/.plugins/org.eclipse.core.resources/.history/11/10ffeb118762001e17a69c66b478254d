@@ -1,0 +1,69 @@
+orangeHRMApplicationLogInPage_loginPanel_idProperty=logInPanelHeading
+
+orangeHRMApplicationLogInPage_UserName_idProperty=txtUsername
+
+orangeHRMApplicationLogInPage_Password_idProperty=txtPassword
+
+orangeHRMApplicationLogInPage_LoginButton_classNameProperty= button
+	#Key
+OrangeHrm Application LoginButton Locator is name and its selector is Submit
+	#Key
+orangeHRMApplicationLogInPage_LoginButton_nameProperty=Submit
+
+OrangeHrm Application AdminElement Locator is LinkText and its selector is Admin
+	#Key
+orangeHRMApplicationHomePage_AdminElement_Property=Admin
+	
+OrangeHrm Application PimElement Locator is Id and its selector is menu_pim_viewPimModule
+	#Key
+orangeHRMApplicationHomePage_PimElement_Property=menu_pim_viewPimModule	
+
+OrangeHrm Application PimElement Locator is LinkText and its selector is PIM
+
+	#Key
+orangeHRMApplicationHomePage_PimElement_Property_LinkText=PIM
+OrangeHrm Application AddEmployee Locator is Id and its selector is personal_txtEmployeeId
+	#Key
+orangeHRMApplicationEmployeeDetails_AddEmployee_Property	=Add Employee
+
+OrangeHrm Application FullName Text Locator is className and its selector is hasTopFieldHelp
+	#Key
+orangeHRMApplicationAddEmployee_FullName_Property=hasTopFieldHelp
+
+OrangeHrm Application FirstName  Locator is Name and its selector is firstName
+	#Key
+orangeHRMApplicationAddEmployee_FirstName_Property=firstName
+
+OrangeHrm Application MiddleName  Locator is Name and its selector is middleName
+	#Key
+orangeHRMApplicationAddEmployee_MiddleName_Property=middleName
+
+OrangeHrm Application LastName  Locator is Name and its selector is lastName
+	#Key
+orangeHRMApplicationAddEmployee_LastName_Property=lastName
+
+OrangeHrm Application Employee Locator is Name and its selector is employeeId
+
+	#Key
+orangeHRMApplicationAddEmployee_EmployeeId_Property=employeeId
+
+OrangeHrm Application SaveButton Locator is Id and its selector is btnSave
+	#Key
+orangeHRMApplicationAddEmployee_SaveButton_Property	=btnSave
+
+OrangeHrm Application Registered FirstName Locator is Id and its selector is personal_txtEmpFirstName
+	#Key
+orangeHRMApplicationEmployeeDetails_RegisteredFirstName_Property	=personal_txtEmpFirstName
+
+OrangeHrm Application Registered MiddleName Locator is Id and its selector is personal_txtEmpMiddleName
+	#Key
+orangeHRMApplicationEmployeeDetails_RegisteredMiddleName_Property	=personal_txtEmpMiddleName
+
+OrangeHrm Application Registered LastNameLocator is Id and its selector is personal_txtEmpLastName
+	#Key
+orangeHRMApplicationEmployeeDetails_RegisteredLastName_Property=personal_txtEmpLastName
+
+OrangeHrm Application Registered EmployeeId Locator is Id and its selector is personal_txtEmployeeId
+	#Key
+orangeHRMApplicationEmployeeDetails_RegisteredEmployeeId_Property	=personal_txtEmployeeId
+

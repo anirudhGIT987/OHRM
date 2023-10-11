@@ -1,0 +1,9 @@
+<suite name ="OrangeHRM Login Page Using Page Object Model">
+	<test name = "OHRM Login Page With Single Data>
+	<classes>
+		<class name ="com.OrangeHRMApplicationPagesTests.OrangeHRMApplication_LoginPage_Test"/>
+	</classes>
+	
+	</test>
+
+</suite>

@@ -1,0 +1,22 @@
+package com.StepDefinition;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features ="D:\\Jaava\\Eclipse Workspace\\Cucumber_FrameWork_OHRM\\OrangeHRMApplication\\OrangeHRMWebApplication.feature",
+	glue ="com.StepDefinition",
+	
+	
+	
+	monochrome =true
+//	dryRun =true
+
+)
+public class TestRunner {
+
+	
+}

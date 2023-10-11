@@ -1,0 +1,42 @@
+package com.StepDefinition;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class OrangeHRMApplicationMethods {
+	
+	WebDriver driver;
+	String applicationUrlAddress="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/dashboard";	
+	
+
+@Given("^User should open Chrome Browser in the System$")
+public void user_should_open_Chrome_Browser_in_the_System() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^User should enter the OrangeHRM Application Url Address$")
+public void user_should_enter_the_OrangeHRM_Application_Url_Address() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^User should be navigated to OrangeHRM Application LogIn WebPage$")
+public void user_should_be_navigated_to_OrangeHRM_Application_LogIn_WebPage() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^User should close the Chrome Browser along with OrangeHRM Application$")
+public void user_should_close_the_Chrome_Browser_along_with_OrangeHRM_Application() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+
+	
+}

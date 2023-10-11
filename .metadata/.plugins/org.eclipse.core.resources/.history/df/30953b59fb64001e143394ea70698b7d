@@ -1,0 +1,12 @@
+package com.OrangeHRMApplicationPages;
+
+import com.BaseTest.BaseTest;
+
+public class OrangeHRMApplicaation_LoginPage extends BaseTest {
+	
+	/This class will contain information about the elements present in the Web Page
+	// and also the Operations performed on these elements.
+
+	// This class is referred to as an  "Object Repository Class"
+	
+}

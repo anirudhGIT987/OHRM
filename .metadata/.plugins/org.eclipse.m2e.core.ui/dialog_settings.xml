@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Jaava\Eclipse Workspace\OrangeHRMApplication_POM\src\main\java"/>
+			<item value="D:\Jaava\Eclipse Workspace\OrangeHrMWebApplicationPOMTesting"/>
+			<item value="D:\Jaava\Eclipse Workspace\Selenium_with_Java\OrangeHrmWebApplication_Login_AddEmplooyee_Test.xml"/>
+			<item value="D:\Jaava\Eclipse Workspace\Java_Basics\src\com\JavaPrcaQ\Break_Continue_Examples.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.OrangeHRMWebApplication.Cucumber_FrameWork_OHRM"/>
+			<item value="com.OrangeHRMWebApplication"/>
+			<item value="com.OrangeHRMWebApplication.OrangeHRMApplication_POM"/>
+			<item value="com.OrangeHRMWebApplication.OrangeHrMWebApplicationPOMTesting"/>
+		</list>
+		<list key="groupId">
+			<item value="com.OrangeHRMWebApplication"/>
+		</list>
+		<list key="artifactId">
+			<item value="Cucumber_FrameWork_OHRM"/>
+			<item value="OrangeHRMApplication_POM"/>
+			<item value="OrangeHrMWebApplicationPOMTesting"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

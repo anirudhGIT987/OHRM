@@ -1,0 +1,51 @@
+package com.YedipaditheAdi;
+
+import org.openqa.selenium.By;
+
+public class Ohrm_EMpData_Log {
+
+// Must be in the Loop	
+	By saveButtonProperty=By.Id(prop.getProperties("orangeHRMApplicationAddEmployee_SaveButton_idProperty"));
+	WebElement saveButton=driver.findElement(saveButtonProperty);
+	saveButton.click();
+System.out.println("Clicked Save Button");
+
+	By personalDetailsProperty=By.ByXPath("/html/body/div[1]/div[3]/div/div[2]/div[1]/h1");
+	WebElement personalDetails=driver.findElement(personalDetailsProperty);
+	String actual_PersonalDetailsPageText=personalDetails.getText();
+	String expected_PersonalDetailsPageText=row1.getCell(20).getStringCellValue();
+							empRowIndex.createCell(21).setCellValue(actual_PersonalDetailsPageText);
+	if(actual_PersonalDetailsPageText.equalsIgnoreCase(expected_PersonalDetailsPageText))
+	{
+					empRowIndex.createCell(21)
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

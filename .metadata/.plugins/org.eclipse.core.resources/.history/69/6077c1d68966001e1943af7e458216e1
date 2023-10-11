@@ -1,0 +1,18 @@
+package com.OrangeHRMApplicationPagesTests;
+
+import org.testng.annotations.Test;
+
+import com.OrangeHRMApplicationPages.OrangeHRMApplication_LogInPage;
+import com.OrangeHRMApplicationPages.Saadhana_ObjectRepository;
+
+public class Saadhana_PomTest {
+
+	Saadhana_ObjectRepository ohrm = new Saadhana_ObjectRepository();
+	
+	@Test(priority=1,description="Validating OrangeHRM Application LogIn Page Text - Test ")
+	public void validatingLogInPanelTextTest()
+	{
+	ohrm.validatingLogInPanelText();
+	}
+	
+}

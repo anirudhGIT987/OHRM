@@ -1,0 +1,16 @@
+package com.StepDefinition;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.junit.Cucumber;
+
+public class TestRunner {
+
+	@RunWith(Cucumber.class)
+	@CucumberOptions(features ="OrangeHRMApplication",
+		glue ="com.StepDefinition",
+		monochrome =true,
+		dryRun =true
+	
+	)
+}

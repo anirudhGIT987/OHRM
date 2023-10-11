@@ -1,0 +1,100 @@
+package com.YedipaditheAdi;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class Ohrm_EMpData_Log {
+
+// Must be in the Loop	
+	By saveButtonProperty=By.Id(prop.getProperties("orangeHRMApplicationAddEmployee_SaveButton_idProperty"));
+	WebElement saveButton=driver.findElement(saveButtonProperty);
+	saveButton.click();
+System.out.println("Clicked Save Button");
+
+	By personalDetailsProperty=By.ByXPath("/html/body/div[1]/div[3]/div/div[2]/div[1]/h1");
+	WebElement personalDetails=driver.findElement(personalDetailsProperty);
+	String actual_PersonalDetailsPageText=personalDetails.getText();
+	String expected_PersonalDetailsPageText=row1.getCell(20).getStringCellValue();
+							empRowIndex.createCell(21).setCellValue(actual_PersonalDetailsPageText);
+	if(actual_PersonalDetailsPageText.equalsIgnoreCase(expected_PersonalDetailsPageText))
+	{
+					empRowIndex.createCell(22).setCellValue("PASS");
+	}
+	else {
+					empRowIndex.createCell(22).setCellValue("FAIL");
+	}
+	
+	WebElement registeredFirstName=driver.findElement(By.id(properties.getProperty("orangeHRMApplicationEmployeeDetails_RegisteredFirstName_Property")));
+	String actual_FirstName=registeredFirstName.getAttribute("value");
+					presentRow.createCell(23).setCellValue(actual_FirstName);
+	if(actual_FirstName.equals(expected_FirstName))
+	{		
+					presentRow.createCell(24).setCellValue("PASS");
+	}
+	else {
+					presentRow.createCell(24).setCellValue("FAIL");
+	}
+	WebElement registeredMiddleName=driver.findElement(By.id(properties.getProperty("orangeHRMApplicationEmployeeDetails_RegisteredMiddleName_Property")));
+	String actual_MiddleName=registeredMiddleName.getAttribute("value");
+					presentRow.createCell(25).setCellValue(actual_MiddleName);
+	if(actual_MiddleName.equals(expected_MiddleName))
+	{
+					presentRow.createCell(26).setCellValue("PASS");
+	}
+	else {
+					presentRow.createCell(26).setCellValue("PASS");
+	}
+	
+	WebElement registeredLastName=driver.findElement(By.id(properties.getProperty("orangeHRMApplicationEmployeeDetails_RegisteredLastName_Property")));
+	String actual_LastName=registeredLastName.getAttribute("value");
+					presentRow.createCell(27).setCellValue(actual_LastName);
+	if(actual_LastName.equals(expected_LastName))
+	{
+					presentRow.createCell(28).setCellValue("PASS");
+	}
+	else {
+					presentRow.createCell(28).setCellValue("PASS");
+	}
+	
+	WebElement registeredEmployeeId=driver.findElement(By.id(properties.getProperty("orangeHRMApplicationEmployeeDetails_RegisteredEmployeeId_Property")));
+	String actual_EmployeeId=registeredEmployeeId.getAttribute("value");
+					presentRow.createCell(29).setCellValue(actual_EmployeeId);
+	if(actual_EmployeeId.equals(expected_EmployeeId))
+	{
+					presentRow.createCell(30).setCellValue("PASS");
+	}
+	else {
+					presentRow.createCell(30).setCellValue("PASS");
+	}
+	
+	 addEmployeeLink=driver.findElement(By.linkText("Add Employee"));
+	 addEmployeeLink.click();		
+// TIll here in the Loop	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

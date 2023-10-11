@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-11T09:37:55 IST" name="OrangeHRM Login Page Using Page Object Model" finished-at="2023-10-11T09:38:09 IST" duration-ms="14735">
+    <groups>
+    </groups>
+    <test started-at="2023-10-11T09:37:55 IST" name="OHRM_Login_Page_Functionalities_With_Mutliple_TestData" finished-at="2023-10-11T09:38:09 IST" duration-ms="14735">
+      <class name="com.OrangeHRMApplicationPagesTests.MultiUsersCredentials_OhrmLoginPage_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHRMApplicationPagesTests.MultiUsersCredentials_OhrmLoginPage_Test@738dc9b]" started-at="2023-10-11T09:37:55 IST" name="setUp" finished-at="2023-10-11T09:37:59 IST" duration-ms="4752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatingLogInPanelTextTest()[pri:1, instance:com.OrangeHRMApplicationPagesTests.MultiUsersCredentials_OhrmLoginPage_Test@738dc9b]" started-at="2023-10-11T09:37:59 IST" name="validatingLogInPanelTextTest" description="Validating OrangeHRM Application LogIn Page Text - Test " finished-at="2023-10-11T09:37:59 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingLogInPanelTextTest -->
+        <test-method signature="validatingOrangeHRMApplicationLogoTest()[pri:2, instance:com.OrangeHRMApplicationPagesTests.MultiUsersCredentials_OhrmLoginPage_Test@738dc9b]" started-at="2023-10-11T09:37:59 IST" name="validatingOrangeHRMApplicationLogoTest" description="Validating OrangeHRM Application LogInPage Logo - Test " finished-at="2023-10-11T09:37:59 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingOrangeHRMApplicationLogoTest -->
+        <test-method signature="orangeHRMApplicationLogInPage_logInTest()[pri:3, instance:com.OrangeHRMApplicationPagesTests.MultiUsersCredentials_OhrmLoginPage_Test@738dc9b]" started-at="2023-10-11T09:37:59 IST" name="orangeHRMApplicationLogInPage_logInTest" description=" Validating OrangeHRM Application LogIn Funcationality - Test" finished-at="2023-10-11T09:38:06 IST" duration-ms="6559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMApplicationLogInPage_logInTest -->
+        <test-method signature="orangeHRMApplicationHome_WelcomeAdminClick()[pri:4, instance:com.OrangeHRMApplicationPagesTests.MultiUsersCredentials_OhrmLoginPage_Test@738dc9b]" started-at="2023-10-11T09:38:06 IST" name="orangeHRMApplicationHome_WelcomeAdminClick" description="Validating OrangeHRM HomePage Welcome Admin Element Functionality - Test" finished-at="2023-10-11T09:38:06 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMApplicationHome_WelcomeAdminClick -->
+        <test-method signature="orangeHRMApplicationLogOutTest()[pri:5, instance:com.OrangeHRMApplicationPagesTests.MultiUsersCredentials_OhrmLoginPage_Test@738dc9b]" started-at="2023-10-11T09:38:06 IST" name="orangeHRMApplicationLogOutTest" description="Validating OrangeHRM Application Log Out Functionality - Test" finished-at="2023-10-11T09:38:08 IST" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMApplicationLogOutTest -->
+        <test-method signature="orangeHRMApplicationLoginPage_ComboBoxTest()[pri:6, instance:com.OrangeHRMApplicationPagesTests.MultiUsersCredentials_OhrmLoginPage_Test@738dc9b]" started-at="2023-10-11T09:38:08 IST" name="orangeHRMApplicationLoginPage_ComboBoxTest" description="Validating OrangeHRM Application LoginPage ComboBox-DropDown -Test" finished-at="2023-10-11T09:38:08 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMApplicationLoginPage_ComboBoxTest -->
+        <test-method signature="orangeHRMApplication_FooterLoginButtonTest()[pri:7, instance:com.OrangeHRMApplicationPagesTests.MultiUsersCredentials_OhrmLoginPage_Test@738dc9b]" started-at="2023-10-11T09:38:08 IST" name="orangeHRMApplication_FooterLoginButtonTest" description="Validating OrangeHRM Application Footer Login Button Functionality - Test" finished-at="2023-10-11T09:38:09 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMApplication_FooterLoginButtonTest -->
+        <test-method signature="orangeHRMApplication_FooterAlternativeLoginTextTest()[pri:8, instance:com.OrangeHRMApplicationPagesTests.MultiUsersCredentials_OhrmLoginPage_Test@738dc9b]" started-at="2023-10-11T09:38:09 IST" name="orangeHRMApplication_FooterAlternativeLoginTextTest" description="Validating OrangeHRM Application Footer Alternative Login Text- Test" finished-at="2023-10-11T09:38:09 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMApplication_FooterAlternativeLoginTextTest -->
+        <test-method signature="orangeHRMApplication_FooterDiv2ElementsTest()[pri:9, instance:com.OrangeHRMApplicationPagesTests.MultiUsersCredentials_OhrmLoginPage_Test@738dc9b]" started-at="2023-10-11T09:38:09 IST" name="orangeHRMApplication_FooterDiv2ElementsTest" description="Validating Orange HRM Application Footer Div2 Elements - Test" finished-at="2023-10-11T09:38:09 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMApplication_FooterDiv2ElementsTest -->
+        <test-method signature="orangeHRMApplicationOhrmIncLinkTest()[pri:10, instance:com.OrangeHRMApplicationPagesTests.MultiUsersCredentials_OhrmLoginPage_Test@738dc9b]" started-at="2023-10-11T09:38:09 IST" name="orangeHRMApplicationOhrmIncLinkTest" description="Validating OrangeHRM Appplication OHRM Inc. Link - Test " finished-at="2023-10-11T09:38:09 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMApplicationOhrmIncLinkTest -->
+        <test-method signature="orangeHRMApplicationSocialIconsTest()[pri:11, instance:com.OrangeHRMApplicationPagesTests.MultiUsersCredentials_OhrmLoginPage_Test@738dc9b]" started-at="2023-10-11T09:38:09 IST" name="orangeHRMApplicationSocialIconsTest" description="Validating OrangeHRM Application Social Icons - Test" finished-at="2023-10-11T09:38:09 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMApplicationSocialIconsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHRMApplicationPagesTests.MultiUsersCredentials_OhrmLoginPage_Test@738dc9b]" started-at="2023-10-11T09:38:09 IST" name="tearDown" finished-at="2023-10-11T09:38:09 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OrangeHRMApplicationPagesTests.MultiUsersCredentials_OhrmLoginPage_Test -->
+    </test> <!-- OHRM_Login_Page_Functionalities_With_Mutliple_TestData -->
+  </suite> <!-- OrangeHRM Login Page Using Page Object Model -->
+</testng-results>

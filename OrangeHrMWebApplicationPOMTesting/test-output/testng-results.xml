@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-07T15:26:46 IST" name="OrangeHRM WebApplication Test" finished-at="2023-10-07T15:27:05 IST" duration-ms="18980">
+    <groups>
+    </groups>
+    <test started-at="2023-10-07T15:26:46 IST" name="OrangeHrm_WebApp_Login_MultipleUsers" finished-at="2023-10-07T15:27:05 IST" duration-ms="18980">
+      <class name="com.OrangeHRMWebAppTestCases.Ohrm_MutlipleUserCredentialsLogin_TestNg_PropFile">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHRMWebAppTestCases.Ohrm_MutlipleUserCredentialsLogin_TestNg_PropFile@7b36aa0c]" started-at="2023-10-07T15:26:46 IST" name="setUp" finished-at="2023-10-07T15:26:53 IST" duration-ms="7261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="orangeHrmWebApplicationLoginPage()[pri:1, instance:com.OrangeHRMWebAppTestCases.Ohrm_MutlipleUserCredentialsLogin_TestNg_PropFile@7b36aa0c]" started-at="2023-10-07T15:26:53 IST" name="orangeHrmWebApplicationLoginPage" description="Validation of Login Page of OrangeHRM WebApplication" finished-at="2023-10-07T15:26:55 IST" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHrmWebApplicationLoginPage -->
+        <test-method signature="multiUserCredentialsLogin()[pri:2, instance:com.OrangeHRMWebAppTestCases.Ohrm_MutlipleUserCredentialsLogin_TestNg_PropFile@7b36aa0c]" started-at="2023-10-07T15:26:55 IST" name="multiUserCredentialsLogin" description="Validation of Multiple User Credentials" finished-at="2023-10-07T15:27:05 IST" duration-ms="10243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiUserCredentialsLogin -->
+      </class> <!-- com.OrangeHRMWebAppTestCases.Ohrm_MutlipleUserCredentialsLogin_TestNg_PropFile -->
+    </test> <!-- OrangeHrm_WebApp_Login_MultipleUsers -->
+  </suite> <!-- OrangeHRM WebApplication Test -->
+</testng-results>

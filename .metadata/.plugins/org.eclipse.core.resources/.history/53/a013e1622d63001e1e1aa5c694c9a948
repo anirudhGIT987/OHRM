@@ -1,0 +1,5 @@
+package com.TestNG.Selenium;
+
+public class MutlipleUserCredentialsLogin_TestNg_PropFile {
+
+}

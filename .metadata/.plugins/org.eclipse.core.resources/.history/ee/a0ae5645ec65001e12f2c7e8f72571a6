@@ -1,0 +1,14 @@
+package com.OrangeHRMApplicationPages;
+
+import com.BaseTest.BaseTest;
+
+public class OrangeHRM_WebApplication_MultiUsers_LoginValidationPage extends BaseTest{
+
+	
+	
+	@FindBy()
+	
+	
+	
+	
+}
